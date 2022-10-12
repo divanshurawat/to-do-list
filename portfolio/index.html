@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My BASICS PORTFOLIO</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        :root {
+            --primary: #3DCFD3;
+            --dark: #161616;
+            --pure: #FFFFFF;
+            --ternary: #893989;
+            --light: #F2F2F2;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            -webkit-font-smotthing: antialiased;
+        }
+
+
+        header {
+            background: var(--dark);
+        }
+
+        .container {
+            max-width: 1152px;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+
+        header nav .left a {
+            color: var(--pure);
+            text-decoration: none;
+            margin-right: 2rem;
+            text-transform: uppercase;
+            transition: all .3s ease;
+        }
+
+        header nav .left a:hover {
+            color: var(--ternary);
+        }
+
+        header nav {
+            padding: 2rem 0;
+        }
+
+        header nav .branding {
+            margin-right: 3rem;
+        }
+
+        .hero .right {
+            color: var(--pure)
+        }
+
+        .hero .right h6 {
+            font-size: 1.6 rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .right h1 {
+            font-size: 4rem;
+            font-weight: 100;
+            line-height: 1;
+            margin-bottom: 2rem;
+
+        }
+
+        .hero .right h1 span {
+            color: var(--primary);
+        }
+
+        .hero .right p {
+            line-height: 1.9;
+            margin-bottom: 2rem;
+        }
+
+        section {
+            padding: 6rem 0;
+        }
+
+        section.about .about-me-img {
+            height: 450px;
+        }
+
+        section.about h1 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 398;
+        }
+
+        section.about h1 span {
+            color: var(--primary);
+        }
+
+        section.about h3 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        section.about p {
+            color: var(--ternary);
+            line-height: 1.8;
+        }
+
+        section.education h1 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            font-weight: 398;
+        }
+
+
+        section.education p {
+            line-height: 1.8;
+        }
+
+        section.eduaction h3 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        section.education h1 span {
+            color: var(--ternary);
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .btn {
+            padding: 0.8rem 2.5rem;
+            font-size: 2 rem;
+            font-weight: 800;
+            border: 2px solid transparent;
+            outline: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .3sec ease;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: var(--)
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .flex-1 {
+            flex: 1;
+        }
+
+        .justify-cneter {
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div>
+                        <img src="./images/logo.svg" alt="">
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Education</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <button class="btn btn-primary">Contact</button>
+                </div>
+            </nav>
+            <div class="hero flex items-center">
+                <div class="left flex-1 flex justify-center">
+                    <img src="./images/me.JPG" alt="" height="400">
+                </div>
+                <div class="right flex-1">
+                    <h1>Divanshu Rawat</h1>
+                    <h3>I'm a Creative<br><span>Learner</span> </h3>
+                    <p>I am a hard working learner , who wants to enhance his<br>skills in comptitive programming and
+                        <br>in the field of web and app development....
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container flex items-centerz">
+            <div class="flex-1">
+                <img class="about-me-img" src="./images/me 2.JPG " alt="" height="400">
+            </div>
+            <div class="flex-1">
+                <h1>About <span>Me</span></h1>
+
+                <h3>Hello I'm Divanshu Rawat.</h3>
+                <p>
+                    I am currently pursuing me BTech degree from Ajay Kumar Garg
+                    Enginnering College , Ghaziabad (UP) in Informaton Technology.
+                    I have basic knowledge of c/c++ and html and I am working hard
+                    to learn more skills in these two fields.I have believe in myself
+                    that I can learn more skills in this field in less time and efficiently.
+                </p>
+                <div>
+                </div>
+
+            </div>
+
+    </section>
+    <section class="Eduaction">
+        <div class="container flex items-centerz">
+            <div class="flex-1">
+                <img src="./images/books.jpg" alt="" height="400">
+
+            </div>
+            <div class="flex-1">
+                <h1>Educational <span>Details</span></h1>
+                <h3>My Educational deatils are as follows</h3>
+                <p>
+                <ul>
+                    <li>12th from LBK Public Sr.Sec. School in 2021.</li>
+                    <li>10th for Radha International Academy in 2019.</li>
+                </ul>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
